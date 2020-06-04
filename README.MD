@@ -17,9 +17,9 @@ doodle
 1. `git clone https://github.com/waymobetta/doodle.git`
 2. download [jrnl](https://github.com/jrnl-org/jrnl)
 3. configure [doodle_config.py](https://github.com/waymobetta/doodle/blob/master/src/doodle_config.py)
-4. run [create_jrnl.py](https://github.com/waymobetta/doodle/blob/master/src/create_jrnl.py) to [create a new custom jrnl](https://github.com/waymobetta/doodle/README.MD#create-new-jrnl)
-5. run [funnel.py](https://github.com/waymobetta/doodle/blob/master/src/funnel.py) helper script (or set cron) to [export journal data to JSON](https://github.com/waymobetta/doodle/README.MD#export-journal-data-to-json)
-6. run [doodle.py](https://github.com/waymobetta/doodle/blob/master/src/doodle.py) on a newly written jrnl to [begin doodle](https://github.com/waymobetta/doodle/README.MD#begin-doodle)
+4. run [create_jrnl.py](https://github.com/waymobetta/doodle/blob/master/src/create_jrnl.py) to [create a new custom jrnl](https://github.com/waymobetta/doodle/blob/master/README.MD#create-new-jrnl)
+5. run [funnel.py](https://github.com/waymobetta/doodle/blob/master/src/funnel.py) helper script (or set cron) to [export journal data to JSON](https://github.com/waymobetta/doodle/blob/master/README.MD#export-journal-data-to-json)
+6. run [doodle.py](https://github.com/waymobetta/doodle/blob/master/src/doodle.py) on a newly written jrnl to [begin doodle](https://github.com/waymobetta/doodle/blob/master/README.MD#begin-doodle)
 
 ---
 
