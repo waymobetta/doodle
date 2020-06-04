@@ -48,14 +48,10 @@ doodle
 ./doodle.py -d
 ```
 
-[default]: https://user-images.githubusercontent.com/17755587/83708589-74876680-a5d1-11ea-9f73-16a43c662cdc.png
-
 * priv journal with date flag
 ```bash
 ./doodle.py -d -j priv
 ```
-[priv]: https://user-images.githubusercontent.com/17755587/83706398-32a7f180-a5cc-11ea-94c5-52c669535382.png
-
 
 ---
 
