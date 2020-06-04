@@ -12,10 +12,10 @@ doodle
 
 1. `git clone https://github.com/waymobetta/doodle.git`
 2. download [jrnl](https://github.com/jrnl-org/jrnl)
-3. configure `doodle_config.py`
-4. run `create_jrnl.py` to create a new custom jrnl
-5. run `funnel.sh` helper script (or set cron)
-6. run `doodle.py` on a newly written jrnl
+3. configure [doodle_config.py](https://github.com/waymobetta/doodle/blob/master/src/doodle_config.py)
+4. run [create_jrnl.py](https://github.com/waymobetta/doodle/blob/master/src/create_jrnl.py) to create a new custom jrnl
+5. run [funnel.py](https://github.com/waymobetta/doodle/blob/master/src/funnel.py) helper script (or set cron)
+6. run [doodle.py](https://github.com/waymobetta/doodle/blob/master/src/doodle.py) on a newly written jrnl
 
 ### todo
 - [x] proof of concept
