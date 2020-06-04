@@ -13,9 +13,35 @@ doodle
 1. `git clone https://github.com/waymobetta/doodle.git`
 2. download [jrnl](https://github.com/jrnl-org/jrnl)
 3. configure [doodle_config.py](https://github.com/waymobetta/doodle/blob/master/src/doodle_config.py)
-4. run [create_jrnl.py](https://github.com/waymobetta/doodle/blob/master/src/create_jrnl.py) to create a new custom jrnl
-5. run [funnel.py](https://github.com/waymobetta/doodle/blob/master/src/funnel.py) helper script (or set cron)
-6. run [doodle.py](https://github.com/waymobetta/doodle/blob/master/src/doodle.py) on a newly written jrnl
+4. run [create_jrnl.py](https://github.com/waymobetta/doodle/blob/master/src/create_jrnl.py) to [create a new custom jrnl](https://github.com/waymobetta/doodle/README.MD#create%20new%20jrnl)
+5. run [funnel.py](https://github.com/waymobetta/doodle/blob/master/src/funnel.py) helper script (or set cron) to [export journal data to JSON](https://github.com/waymobetta/doodle/README.MD#export%20journal%20data%20to%20json)
+6. run [doodle.py](https://github.com/waymobetta/doodle/blob/master/src/doodle.py) on a newly written jrnl to [begin doodle](https://github.com/waymobetta/doodle/README.MD#begin%20doodle)
+
+### create new jrnl
+```bash
+./create_jrnl.py myjrnl
+```
+
+### export journal data to JSON
+```bash
+./funnel.py
+```
+
+### begin doodle
+* help
+```bash
+./doodle.py --help
+```
+
+* default journal with date flag
+```bash
+./doodle.py -d
+```
+
+* priv journal with date flag
+```bash
+./doodle.py -d -j priv
+```
 
 ### todo
 - [x] proof of concept
