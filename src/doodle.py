@@ -107,6 +107,9 @@ try:
         raw_entries=read_file(name)
         # get list of formatted entry strings
         entry_list=combine_lists(raw_entries=raw_entries,date=date)
+        if len(entry_list) < 1:
+            print('No entries in {}'.format(name.title()))
+            sys.exit(1)
         # choose random entry string from list of formatted entry strings
         # set last value to avoid retrieving consecutive duplicates
         entry,last=rand_entry(entry_list=entry_list,last=last)
