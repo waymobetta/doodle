@@ -57,9 +57,9 @@ doodle
 
 ### todo
 - [x] proof of concept
-- [] read entry across all custom journals; display origin
-- [] error handling
-- [] integrate AI model for text generation
+- [ ] read entry across all custom journals; display origin
+- [ ] error handling
+- [ ] integrate AI model for text generation
 
 ---
 
