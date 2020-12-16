@@ -6,7 +6,7 @@ doodle
 ---
 
 ### why
-- continuously storing one's thoughts through a [zettlekasten](https://zettelkasten.de/) serves as a minor memory download so as to not bear burder of holding on to many interconnected thoughts.
+- continuously storing one's thoughts through a [zettlekasten](https://zettelkasten.de/) serves as a minor memory download so as to not bear burden of holding on to many interconnected thoughts.
 - this also grants the privilege of introspection and reflection on concepts, allowing the iterative design and improvement process to begin more readily and with a proper environment to grow infinitely.
 - moreover, by continuously being fed one's own thoughts, new linkages and concepts may be derived more effortlessly.
 
