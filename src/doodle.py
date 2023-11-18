@@ -116,7 +116,7 @@ try:
         # prevent rendering empty entries
         if len(entry) > 0: 
             # haxor prints text to STDOUT like a typewriter
-            haxor(payload=entry,delay=0.05)
+            haxor(payload=entry,delay=0.025)
             # separate entry with carriage return
             print('',sep='\r')
 except KeyboardInterrupt:

@@ -3,7 +3,7 @@
 import sys
 import time
 
-def haxor(payload,delay=0.05):
+def haxor(payload,delay=0.025):
     for char in payload:
         time.sleep(delay)
         sys.stdout.write(char)
