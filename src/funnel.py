@@ -12,7 +12,7 @@ from os.path import isfile, join, splitext
 # @param: json_path: string path to output JSON records
 def execute_shell_cmd(name,json_path):
     # craft output path to JSON record
-    json_full_path = '{}{}_journal.json'.format(json_path,name)
+    json_full_path = '{}/{}_journal.json'.format(json_path,name)
     
     # craft payload list for subprocess
     payload = ['jrnl', name, '--export', 'json', '-o', json_full_path]
@@ -20,7 +20,7 @@ def execute_shell_cmd(name,json_path):
     # if default jrnl
     if name == 'journal':
         # craft custom path to output JSON record
-        json_full_path = '{}{}.json'.format(json_path,name)
+        json_full_path = '{}/{}.json'.format(json_path,name)
         # craft custom payload list for subprocess
         payload = ['jrnl', '--export', 'json', '-o', json_full_path] 
 
